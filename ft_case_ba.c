@@ -1,3 +1,5 @@
+#include "PUSH_SWAP.H"
+
 // This function calculates the required amount of rotation.
 // Calculations are done for ra+rb case.
 int	ft_case_rarb_a(t_stack *a, t_stack *b, int c)
