@@ -1,3 +1,4 @@
+#include "PUSH_SWAP.H"
 
 // This function sort and push stacks until 3 members left behind.
 void	ft_sort_b_till_3(t_stack **stack_a, t_stack **stack_b)
