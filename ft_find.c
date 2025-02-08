@@ -1,4 +1,4 @@
-
+#include "PUSH_SWAP.H"
 
 // This function returns the last element of the stack.
 t_stack	*ft_lstlast(t_stack *lst)
