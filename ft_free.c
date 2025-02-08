@@ -1,3 +1,5 @@
+#include "PUSH_SWAP.H"
+
 // This function frees the stack.
 void	ft_free(t_stack **lst)
 {
