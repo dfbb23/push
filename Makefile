@@ -2,7 +2,7 @@ NAME = push_swap
 
 SRC = big_sort.c check_error.c ft_apply1.c ft_case_ab.c \
       ft_case_ba.c ft_checksorted.c ft_find.c ft_free.c \
-      ft_rotate_type.c push_swap.c 
+      ft_rotate_type.c push_swap.c ft_process.c
 
 LIBFT = ./libft/libft.a
 INCLUDE = -L ./libft -lft -I ./libft
