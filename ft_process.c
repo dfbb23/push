@@ -1,3 +1,25 @@
+// Creates new stack node with given number.
+t_stack	*ft_stack_new(int content)
+{
+	t_stack	*new;
+
+	new = malloc(sizeof (t_stack));
+	if (!new)
+		ft_error();
+	new->nbr = content;
+	new->next = NULL;
+	return (new);
+}
+// Function to add a new node to the stack from back side
+void	ft_add_back(t_stack **stack, t_stack *stack_new)
+{
+	if (!stack)
+		return ;
+	if (!*stack)
+		*stack = stack_new;
+	else
+		(ft_lstlast(*stack))->next = stack_new;
+}
 // This function does three things.
 // 1. It checks if the number of input is less than 2.
 // 2. It checks if the number of input is equal to 2.
