@@ -43,7 +43,10 @@ int	space(int c)
 
 void	check_error(char **argv, int i, int j)
 {
-i = 0;
+int i;
+int j;
+	
+	 i = 1
 	while (argv[i])
 	{
 		j = 0;
