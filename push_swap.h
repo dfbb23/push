@@ -12,6 +12,9 @@ typedef struct s_stack
 	struct s_stack	*next;
 	struct s_stack	*prev;
 }	t_stack;
+
+t_stack	*ft_stack_new(int content);
+void	ft_add_back(t_stack **stack, t_stack *stack_new)
 int	ft_atoi2(const char *str);
 t_stack	*ft_sub_process(char **argv);
 t_stack	*ft_process(int argc, char **argv)
