@@ -12,7 +12,9 @@ typedef struct s_stack
 	struct s_stack	*next;
 	struct s_stack	*prev;
 }	t_stack;
-
+int	ft_atoi2(const char *str);
+t_stack	*ft_sub_process(char **argv);
+t_stack	*ft_process(int argc, char **argv)
 void	ft_sort_b_till_3(t_stack **stack_a, t_stack **stack_b);
 t_stack	*ft_sort_b(t_stack **stack_a);
 t_stack	**ft_sort_a(t_stack **stack_a, t_stack **stack_b);
