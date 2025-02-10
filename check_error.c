@@ -67,9 +67,9 @@ int j;
 					break ;
 				if (!digit(argv[i][j+1]) && !space(argv[i][j+1]))
 			             	ft_error();
-			        j++;
-
 			}
+				j++;
+
 		}
 		i++;
 	}
