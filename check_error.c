@@ -63,13 +63,13 @@ int j;
 			}
 			else if (digit(argv[i][j]))
 			{
-				j++;
-				if (argv[i][j] == '\0')
+				if (argv[i][j+1] == '\0')
 					break ;
-				if (!digit(argv[i][j]) && !space(argv[i][j]))
+				if (!digit(argv[i][j+1]) && !space(argv[i][j+1]))
 			             	ft_error();
+			        j++;
+
 			}
-			j++;
 		}
 		i++;
 	}
