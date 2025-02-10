@@ -51,7 +51,7 @@ int j;
 	{
 		j = 0;
 
-		while ((argv[i][j] != '\0'))
+		while (argv[i][j] != '\0')
 		{
              if (ft_isalpha(argv[i][j]))
 			             	ft_error();
