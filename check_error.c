@@ -1,4 +1,4 @@
-#include "PUSH_SWAP.H"
+#include "push_swap.h"
 
 //Here an error message is being printed out
 void	ft_error(void)
