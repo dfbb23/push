@@ -10,11 +10,11 @@ void	ft_error(void)
 //function which checks the character if it is alphanumerical
 int	ft_isalpha(int c)
 {
-	if ((c >= 58 && c <= 126) || (c >= 33 && c <= 42)
-		|| (c == 44) || (c == 46) || (c == 47))
-		return (1);
-	return (0);
+	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
+		return 1;
+	return 0;
 }
+
 
 //chec if the chracter is negative
 int	sign(int c)
