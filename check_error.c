@@ -57,7 +57,7 @@ int j;
 			             	ft_error();
 			if (sign(argv[i][j]))
 			{
-				if (!digit(argv[i][j]))
+				if (!digit(argv[i][j+1]))
 			             	ft_error();
 				j++;
 			}
