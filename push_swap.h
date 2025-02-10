@@ -28,6 +28,7 @@ int	sign(int c);
 int	digit(int c);
 int	space(int c);
 void	check_error(char **argv, int i, int j);
+int	ft_checkdup(t_stack *a);
 int	ft_apply_rarb(t_stack **a, t_stack **b, int c, char s);
 int	ft_apply_rrarrb(t_stack **a, t_stack **b, int c, char s);
 int	ft_apply_rrarb(t_stack **a, t_stack **b, int c, char s);
