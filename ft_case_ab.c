@@ -1,5 +1,4 @@
-#include "PUSH_SWAP.H"
-
+#include "push_swap.h"
 // This function calculates how many times 
 // we should rotate the stacks together.
 // Because after a certain amoun of rotate, we will
