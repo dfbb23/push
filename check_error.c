@@ -46,7 +46,7 @@ void	check_error(char **argv, int i, int j)
 int i;
 int j;
 	
-	 i = 1
+	 i = 1;
 	while (argv[i])
 	{
 		j = 0;
