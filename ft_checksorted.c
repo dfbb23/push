@@ -1,5 +1,4 @@
-#include "PUSH_SWAP.H"
-
+#include "push_swap.h"
 // This function checks if the stack is sorted.
 int	ft_checksorted(t_stack *stack_a)
 {
