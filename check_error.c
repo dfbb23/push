@@ -41,7 +41,7 @@ int	space(int c)
 }
 
 
-void	check_error(char **argv, int i, int j)
+void	check_error(char **argv)
 {
 int i;
 int j;
